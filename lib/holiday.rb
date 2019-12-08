@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
     print season.to_s.capitalize + ": "
     holidays.collect do |each_holiday, supply_array|
       
-      binding.pry
+      # binding.pry
     end
   end 
 end
